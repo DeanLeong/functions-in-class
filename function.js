@@ -32,20 +32,20 @@
 
 // 1. Write a function that console.logs 'Hello World'
 
-function helloWorld() {
-  console.log('Hello World')
-}
+// function helloWorld() {
+//   console.log('Hello World')
+// }
 
 // helloWorld()
 
 
 // 2. Write a function that console.logs whatever you want it to say
 
-function sayPhrase(phrase) {
-  console.log(phrase)
-}
+// function sayPhrase(phrase) {
+//   console.log(phrase)
+// }
 
-let kashiff = 'Kashiff'
+// let kashiff = 'Kashiff'
 
 // sayPhrase(kashiff)
 // sayPhrase('Pizza')
@@ -53,75 +53,75 @@ let kashiff = 'Kashiff'
 
 // 3. Write a function that prints every number between 1 and 100.
 
-function printNums() {
-  for (let i = 1; i < 101; i++) {
-    console.log(i)
-  }
-}
+// function printNums() {
+//   for (let i = 1; i < 101; i++) {
+//     console.log(i)
+//   }
+// }
 
 // printNums()
 
-function printArg(num) {
-  for (let i = 0; i <= num; i++) {
-    console.log(i)
-  }
-}
+// function printArg(num) {
+//   for (let i = 0; i <= num; i++) {
+//     console.log(i)
+//   }
+// }
 
 // printArg(500)
 
 // 4. Sum an Array
 
-let nums = [2, 4, 6, 8]
+// let nums = [2, 4, 6, 8]
 
-function sumArray(numsArr) {
-  let sum = 0
-  for (let i = 0; i < numsArr.length; i++) {
-    // console.log(numsArr[i])
-    sum += numsArr[i]
-  }
-  // console.log("Line 82", sum)
-  return sum
-}
+// function sumArray(numsArr) {
+//   let sum = 0
+//   for (let i = 0; i < numsArr.length; i++) {
+//     // console.log(numsArr[i])
+//     sum += numsArr[i]
+//   }
+//   // console.log("Line 82", sum)
+//   return sum
+// }
 
-let sum = sumArray(nums)
+// let sum = sumArray(nums)
 // console.log("Line 87", sum)
 
-function add(num, num1) {
-  return num + num1
-}
+// function add(num, num1) {
+//   return num + num1
+// }
 
-const bigNum = add(sum, 2)
+// const bigNum = add(sum, 2)
 // console.log(bigNum)
 
 // 5. Print student names
 
-const students = [
-  'Alice',
-  'Andrew',
-  'Casey',
-  'Damian',
-  'Grant',
-  'Howie',
-  'Wade',
-  'Kat',
-  'Kimbrad',
-  'Kiu',
-  'Natasha',
-  'Obi',
-  'Pedro',
-  'Sarah',
-  'Scott',
-  'Tiffany',
-  'Zhe',
-];
+// const students = [
+//   'Alice',
+//   'Andrew',
+//   'Casey',
+//   'Damian',
+//   'Grant',
+//   'Howie',
+//   'Wade',
+//   'Kat',
+//   'Kimbrad',
+//   'Kiu',
+//   'Natasha',
+//   'Obi',
+//   'Pedro',
+//   'Sarah',
+//   'Scott',
+//   'Tiffany',
+//   'Zhe',
+// ];
 
 const simpsons = ['Bart', 'Lisa', 'Homer', 'Marge']
 
-function printNames(names) {
-  for (let i = 0; i < names.length; i++) {
-    console.log(`${names[i]} is in SEI Phoenix`)
-  }
-}
+// function printNames(names) {
+//   for (let i = 0; i < names.length; i++) {
+//     console.log(`${names[i]} is in SEI Phoenix`)
+//   }
+// }
 
 // printNames(students)
 // console.log('---------')
@@ -162,12 +162,61 @@ function printNames(names) {
 
 
 // 7.
-function toPower(x, y, z) {
-  // (1 * 2)^3
-  // let result = ((x * y)**z)
-  // let base = x * y
-  // let result =  Math.pow(base, z)
-  console.log(((x * y)**z))
+// function toPower(x, y, z) {
+//   // (1 * 2)^3
+//   // let result = ((x * y)**z)
+//   // let base = x * y
+//   // let result =  Math.pow(base, z)
+//   console.log(((x * y)**z))
+// }
+
+// toPower(1, 2, 3)
+
+
+// Declarations vs Expressions
+
+// Declarations
+// console.log(multiply(3, 3))
+
+// function multiply(num1, num2) {
+//   return num1 * num2
+// }
+// console.log(multiply(3, 3))
+
+// Expression 
+
+// let multiply = function(num1, num2) {
+//   return num1 * num2 
+// }
+
+// console.log(multiply(3, 3))
+// console.log(multiply1(3, 3))
+// let multiply1 = (num1, num2) => num1 * num2 
+
+// console.log(multiply1(3, 3))
+
+// const hello = phrase => console.log(phrase)
+ 
+
+// hello('Yellow')
+
+let dog = 'woof'
+
+function getColor() {
+  let color = "red";
+  console.log(dog)
+}
+let pony = 'run wild'
+for (let i = 0; i < 4; i++) {
+  
+  console.log("line 212",pony)
+  console.log(i)
 }
 
-toPower(1, 2, 3)
+{
+  
+}
+
+console.log("line 220",pony)
+//   getColor();
+// console.log(color);
